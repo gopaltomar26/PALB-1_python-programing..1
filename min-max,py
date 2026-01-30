@@ -1,0 +1,12 @@
+arr = [10, 5, 20, 8, 2]
+
+minval = arr[0]
+maxval = arr[0]
+
+for i in arr:
+    if i < min_val:
+        min_val = i
+    if i > max_val:
+        max_val = i
+print("Minimum:", minval)
+print("Maximum:", maxval)
